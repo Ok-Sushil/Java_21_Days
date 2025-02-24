@@ -1,0 +1,55 @@
+Topic 2: Basic Syntax, Data Types & Variables
+Subtopic a: Java Syntax
+🔹 Basic structure of a Java program:
+
+
+public class MyProgram {
+    public static void main(String[] args) {
+        // Code goes here
+    }
+}
+🔹 Important rules:
+
+Every Java program must have a class.
+The main method (main()) is required for execution.
+Curly braces {} define the beginning and end of blocks.
+Semicolons ; are required at the end of each statement.
+Subtopic b: Data Types in Java
+🔹 Java has two types of data types:
+
+Primitive Data Types (Basic types):
+
+int → Stores whole numbers (e.g., 10, -5)
+char → Stores single characters (e.g., 'A', 'B')
+boolean → Stores true or false values
+float → Stores decimal numbers (e.g., 3.14f)
+double → Stores large decimal numbers (e.g., 3.141592653)
+Non-Primitive Data Types (Objects, Arrays, Strings, etc.).
+
+🔹 Example of using data types:
+
+int age = 25;
+char grade = 'A';
+boolean isPassed = true;
+float price = 10.5f;
+double pi = 3.141592653;
+Subtopic c: Variables in Java
+🔹 What are variables?
+A variable is a container that holds data.
+
+🔹 Declaring and initializing variables:
+int number;     // Declaration
+number = 10;    // Initialization
+
+// Or do both in one line:
+int count = 5;
+🔹 Variable Scope (Where a variable is accessible):
+
+
+public class Example {
+    public static void main(String[] args) {
+        int x = 10;  // Local variable
+        System.out.println(x); // Accessible here
+    }
+    // System.out.println(x);  // Error! x is not accessible here
+}

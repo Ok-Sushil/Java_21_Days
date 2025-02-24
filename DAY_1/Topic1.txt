@@ -1,0 +1,60 @@
+Topic 1: Introduction to Java & Development Environment Setup
+Subtopic a: What is JDK?
+🔹 JDK (Java Development Kit) is a software development kit used to develop and run Java applications.
+🔹 What does JDK include?
+
+JRE (Java Runtime Environment): Runs Java programs.
+JVM (Java Virtual Machine): Converts Java code into machine-understandable instructions.
+Compiler (javac): Converts .java files into .class files (bytecode).
+🔹 How to install JDK (Windows)?
+
+Visit Oracle's official website.
+Download the latest JDK version.
+Run the installer and complete the installation.
+To verify installation, run these commands in the terminal or command prompt:
+
+java -version
+javac -version
+
+If you see version details, JDK is installed correctly.
+Subtopic b: Setting Up IDE (Eclipse or IntelliJ IDEA)
+🔹 Installing Eclipse:
+
+Download Eclipse from Eclipse.org.
+Install it and set the Java Development Kit (JDK) path.
+To create a new project:
+Open Eclipse → File → New → Java Project → Enter project name → Click Finish.
+🔹 Installing IntelliJ IDEA:
+
+Download IntelliJ IDEA from JetBrains website.
+Install and open IntelliJ → Click on "New Project" to create a Java project.
+Subtopic c: Writing a "Hello World" Program
+🔹 The simplest Java program:
+
+public class HelloWorld {
+    public static void main(String[] args) {
+        System.out.println("Hello, World!");
+    }
+}
+🔹 Explanation:
+
+public class HelloWorld { } → Defines a class named HelloWorld.
+public static void main(String[] args) { } → The main method where execution starts.
+System.out.println("Hello, World!"); → Prints "Hello, World!" on the screen.
+🔹 How to run it in Eclipse or IntelliJ?
+
+Create a new Java file (HelloWorld.java).
+Copy-paste the above code.
+Click "Run" or use the terminal command:
+sh
+Copy
+Edit
+javac HelloWorld.java   # Compiles the program
+java HelloWorld         # Runs the program
+
+
+✅ Summary of What You Learned Today:
+✔ Installed JDK and set up Eclipse/IntelliJ.
+✔ Wrote and executed the Hello World program.
+✔ Learned about basic Java syntax, data types, and variables.
+
